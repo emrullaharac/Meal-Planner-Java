@@ -1,0 +1,8 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.postgresql:postgresql:42.2.27'
+    testImplementation 'com.github.hyperskill:hs-test:release-SNAPSHOT'
+}

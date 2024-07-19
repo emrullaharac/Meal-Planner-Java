@@ -1,0 +1,474 @@
+[1;31m
+Start test 1[0m
+9What would you like to do (add, show, plan, save, exit)?
+> save
+'Unable to save. Plan your meals first.
+9What would you like to do (add, show, plan, save, exit)?
+> exit
+Bye!
+[1;31m
+Start test 2[0m
+9What would you like to do (add, show, plan, save, exit)?
+> exit
+Bye!
+[1;31m
+Start test 3[0m
+9What would you like to do (add, show, plan, save, exit)?
+> add
+:Which meal do you want to add (breakfast, lunch, dinner)?
+> lunch
+Input the meal's name:
+> sushi
+Input the ingredients:
+> salmon, rice, avocado
+The meal has been added!
+9What would you like to do (add, show, plan, save, exit)?
+> add
+:Which meal do you want to add (breakfast, lunch, dinner)?
+> lunch
+Input the meal's name:
+> omelette
+Input the ingredients:
+> eggs, milk, cheese
+The meal has been added!
+9What would you like to do (add, show, plan, save, exit)?
+> add
+:Which meal do you want to add (breakfast, lunch, dinner)?
+> breakfast
+Input the meal's name:
+
+> oatmeal
+Input the ingredients:
+$> oats, milk, banana, peanut butter
+The meal has been added!
+9What would you like to do (add, show, plan, save, exit)?
+> show
+@Which category do you want to print (breakfast, lunch, dinner)?
+> lunch
+Category: lunch
+
+Name: sushi
+Ingredients: 
+salmon
+rice
+avocado
+
+Name: omelette
+Ingredients: 
+eggs
+milk
+cheese
+
+9What would you like to do (add, show, plan, save, exit)?
+> show
+@Which category do you want to print (breakfast, lunch, dinner)?
+> breakfast
+Category: breakfast
+
+Name: oatmeal
+Ingredients: 
+oats
+milk
+banana
+peanut butter
+
+9What would you like to do (add, show, plan, save, exit)?
+> exit
+Bye!
+[1;31m
+Start test 4[0m
+9What would you like to do (add, show, plan, save, exit)?
+> show
+@Which category do you want to print (breakfast, lunch, dinner)?
+> lunch
+Category: lunch
+
+Name: sushi
+Ingredients: 
+salmon
+rice
+avocado
+
+Name: omelette
+Ingredients: 
+eggs
+milk
+cheese
+
+9What would you like to do (add, show, plan, save, exit)?
+> show
+@Which category do you want to print (breakfast, lunch, dinner)?
+> breakfast
+Category: breakfast
+
+Name: oatmeal
+Ingredients: 
+oats
+milk
+banana
+peanut butter
+
+9What would you like to do (add, show, plan, save, exit)?
+> show
+@Which category do you want to print (breakfast, lunch, dinner)?
+	> brunch
+<Wrong meal category! Choose from: breakfast, lunch, dinner.
+	> dinner
+No meals found.
+9What would you like to do (add, show, plan, save, exit)?
+> exit
+Bye!
+[1;31m
+Start test 5[0m
+9What would you like to do (add, show, plan, save, exit)?
+> add
+:Which meal do you want to add (breakfast, lunch, dinner)?
+> breakfast
+Input the meal's name:
+> scrambled eggs
+Input the ingredients:
+> eggs,milk,cheese
+The meal has been added!
+9What would you like to do (add, show, plan, save, exit)?
+> add
+:Which meal do you want to add (breakfast, lunch, dinner)?
+> breakfast
+Input the meal's name:
+> sandwich
+Input the ingredients:
+> bread,cheese,ham
+The meal has been added!
+9What would you like to do (add, show, plan, save, exit)?
+> add
+:Which meal do you want to add (breakfast, lunch, dinner)?
+> breakfast
+Input the meal's name:
+
+> oatmeal
+Input the ingredients:
+!> oats,milk,banana,peanut butter
+The meal has been added!
+9What would you like to do (add, show, plan, save, exit)?
+> add
+:Which meal do you want to add (breakfast, lunch, dinner)?
+> breakfast
+Input the meal's name:
+> english breakfast
+Input the ingredients:
+%> eggs,sausages,bacon,tomatoes,bread
+The meal has been added!
+9What would you like to do (add, show, plan, save, exit)?
+> add
+:Which meal do you want to add (breakfast, lunch, dinner)?
+> lunch
+Input the meal's name:
+> sushi
+Input the ingredients:
+> salmon,rice,avocado
+The meal has been added!
+9What would you like to do (add, show, plan, save, exit)?
+> add
+:Which meal do you want to add (breakfast, lunch, dinner)?
+> lunch
+Input the meal's name:
+> chicken salad
+Input the ingredients:
+ > chicken,lettuce,tomato,olives
+The meal has been added!
+9What would you like to do (add, show, plan, save, exit)?
+> add
+:Which meal do you want to add (breakfast, lunch, dinner)?
+> lunch
+Input the meal's name:
+> omelette
+Input the ingredients:
+> eggs,milk,cheese
+The meal has been added!
+9What would you like to do (add, show, plan, save, exit)?
+> add
+:Which meal do you want to add (breakfast, lunch, dinner)?
+> lunch
+Input the meal's name:
+> salad
+Input the ingredients:
+%> lettuce,tomato,onion,cheese,olives
+The meal has been added!
+9What would you like to do (add, show, plan, save, exit)?
+> add
+:Which meal do you want to add (breakfast, lunch, dinner)?
+	> dinner
+Input the meal's name:
+> pumpkin soup
+Input the ingredients:
+%> pumpkin,coconut milk,curry,carrots
+The meal has been added!
+9What would you like to do (add, show, plan, save, exit)?
+> add
+:Which meal do you want to add (breakfast, lunch, dinner)?
+	> dinner
+Input the meal's name:
+> beef steak
+Input the ingredients:
+> beef steak
+The meal has been added!
+9What would you like to do (add, show, plan, save, exit)?
+> add
+:Which meal do you want to add (breakfast, lunch, dinner)?
+	> dinner
+Input the meal's name:
+> pizza
+Input the ingredients:
+> flour,tomato,cheese,salami
+The meal has been added!
+9What would you like to do (add, show, plan, save, exit)?
+> add
+:Which meal do you want to add (breakfast, lunch, dinner)?
+	> dinner
+Input the meal's name:
+> tomato soup
+Input the ingredients:
+> tomato,orzo
+The meal has been added!
+9What would you like to do (add, show, plan, save, exit)?
+> plan
+Monday
+english breakfast
+oatmeal
+	sandwich
+scrambled eggs
+5Choose the breakfast for Monday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> scrambled eggs
+chicken salad
+	omelette
+salad
+sushi
+1Choose the lunch for Monday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> sushi
+beef steak
+pizza
+pumpkin soup
+tomato soup
+2Choose the dinner for Monday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> pumpkin soup
+'Yeah! We planned the meals for Monday.
+
+Tuesday
+english breakfast
+oatmeal
+	sandwich
+scrambled eggs
+6Choose the breakfast for Tuesday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> sandwich
+chicken salad
+	omelette
+salad
+sushi
+2Choose the lunch for Tuesday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> chicken salad
+beef steak
+pizza
+pumpkin soup
+tomato soup
+3Choose the dinner for Tuesday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> beef steak
+(Yeah! We planned the meals for Tuesday.
+
+
+Wednesday
+english breakfast
+oatmeal
+	sandwich
+scrambled eggs
+8Choose the breakfast for Wednesday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+
+> oatmeal
+chicken salad
+	omelette
+salad
+sushi
+4Choose the lunch for Wednesday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> omelette
+beef steak
+pizza
+pumpkin soup
+tomato soup
+5Choose the dinner for Wednesday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> pizza
+*Yeah! We planned the meals for Wednesday.
+
+	Thursday
+english breakfast
+oatmeal
+	sandwich
+scrambled eggs
+7Choose the breakfast for Thursday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> english breakfast
+chicken salad
+	omelette
+salad
+sushi
+3Choose the lunch for Thursday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> salad
+beef steak
+pizza
+pumpkin soup
+tomato soup
+4Choose the dinner for Thursday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> tomato soup
+)Yeah! We planned the meals for Thursday.
+
+Friday
+english breakfast
+oatmeal
+	sandwich
+scrambled eggs
+5Choose the breakfast for Friday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> scrambled eggs
+chicken salad
+	omelette
+salad
+sushi
+1Choose the lunch for Friday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> sushi
+beef steak
+pizza
+pumpkin soup
+tomato soup
+2Choose the dinner for Friday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> pumpkin soup
+'Yeah! We planned the meals for Friday.
+
+	Saturday
+english breakfast
+oatmeal
+	sandwich
+scrambled eggs
+7Choose the breakfast for Saturday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> sandwich
+chicken salad
+	omelette
+salad
+sushi
+3Choose the lunch for Saturday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> chicken salad
+beef steak
+pizza
+pumpkin soup
+tomato soup
+4Choose the dinner for Saturday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> beef steak
+)Yeah! We planned the meals for Saturday.
+
+Sunday
+english breakfast
+oatmeal
+	sandwich
+scrambled eggs
+5Choose the breakfast for Sunday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+
+> oatmeal
+chicken salad
+	omelette
+salad
+sushi
+1Choose the lunch for Sunday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> omelette
+beef steak
+pizza
+pumpkin soup
+tomato soup
+2Choose the dinner for Sunday from the list above:
+> nonExistMeal
+>This meal doesn’t exist. Choose a meal from the list above.
+> pizza
+'Yeah! We planned the meals for Sunday.
+
+Monday
+Breakfast: scrambled eggs
+Lunch: sushi
+Dinner: pumpkin soup
+
+Tuesday
+Breakfast: sandwich
+Lunch: chicken salad
+Dinner: beef steak
+
+
+Wednesday
+Breakfast: oatmeal
+Lunch: omelette
+Dinner: pizza
+
+	Thursday
+Breakfast: english breakfast
+Lunch: salad
+Dinner: tomato soup
+
+Friday
+Breakfast: scrambled eggs
+Lunch: sushi
+Dinner: pumpkin soup
+
+	Saturday
+Breakfast: sandwich
+Lunch: chicken salad
+Dinner: beef steak
+
+Sunday
+Breakfast: oatmeal
+Lunch: omelette
+Dinner: pizza
+
+9What would you like to do (add, show, plan, save, exit)?
+> exit
+Bye!
+[1;31m
+Start test 6[0m
+9What would you like to do (add, show, plan, save, exit)?
+> save
+Input a filename:
+> plan.txt
+Saved!
+9What would you like to do (add, show, plan, save, exit)?
+> exit
+Bye!
