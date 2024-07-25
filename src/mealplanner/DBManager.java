@@ -56,7 +56,6 @@ public class DBManager {
                 "category VARCHAR(50), " +
                 "meal VARCHAR(50), " +
                 "meal_id INTEGER)";
-        //String table1 = "CREATE TABLE IF NOT EXISTS meals (category VARCHAR(50), meal VARCHAR(50), meal_id INTEGER )";
         String ingredientsTable = "CREATE TABLE IF NOT EXISTS ingredients (" +
                 "ingredient VARCHAR(50), " +
                 "ingredient_id INTEGER, " +
